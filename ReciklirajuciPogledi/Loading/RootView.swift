@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct RootView: View {
+    @State private var isLoading = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            if isLoading {
+                Loading()
+            } else {
+                ContentView()
+            }
+        }
+        .task {
+            guard isLoading else { return }
+            try? await Task.sleep(for: .seconds(3))
+            isLoading = false
+        }
     }
 }
 

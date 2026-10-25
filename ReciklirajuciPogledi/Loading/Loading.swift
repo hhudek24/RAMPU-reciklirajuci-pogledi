@@ -9,7 +9,14 @@ import SwiftUI
 
 struct Loading: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 24){
+            
+            ProgressView().controlSize(.large).tint(.pink)
+            
+            Text("Učitavanje aplikacije...").font(.subheadline).foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(.systemBackground))
     }
 }
 
