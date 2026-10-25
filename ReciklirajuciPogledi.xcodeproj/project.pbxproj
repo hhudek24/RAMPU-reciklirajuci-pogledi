@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F4BF33BB308E196E0095A4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BF33A5308E196B0095A4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BF33AC308E196B0095A4CA;
+			remoteInfo = ReciklirajuciPogledi;
+		};
+		F4BF33C5308E196E0095A4CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BF33A5308E196B0095A4CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BF33AC308E196B0095A4CA;
+			remoteInfo = ReciklirajuciPogledi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BF33AD308E196B0095A4CA /* ReciklirajuciPogledi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReciklirajuciPogledi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF33BA308E196E0095A4CA /* ReciklirajuciPoglediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReciklirajuciPoglediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF33C4308E196E0095A4CA /* ReciklirajuciPoglediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReciklirajuciPoglediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4BF33AF308E196B0095A4CA /* ReciklirajuciPogledi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReciklirajuciPogledi;
+			sourceTree = "<group>";
+		};
+		F4BF33BD308E196E0095A4CA /* ReciklirajuciPoglediTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReciklirajuciPoglediTests;
+			sourceTree = "<group>";
+		};
+		F4BF33C7308E196E0095A4CA /* ReciklirajuciPoglediUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReciklirajuciPoglediUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BF33AA308E196B0095A4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33B7308E196E0095A4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33C1308E196E0095A4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BF33A4308E196B0095A4CA = {
+			isa = PBXGroup;
+			children = (
+				F4BF33AF308E196B0095A4CA /* ReciklirajuciPogledi */,
+				F4BF33BD308E196E0095A4CA /* ReciklirajuciPoglediTests */,
+				F4BF33C7308E196E0095A4CA /* ReciklirajuciPoglediUITests */,
+				F4BF33AE308E196B0095A4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BF33AE308E196B0095A4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF33AD308E196B0095A4CA /* ReciklirajuciPogledi.app */,
+				F4BF33BA308E196E0095A4CA /* ReciklirajuciPoglediTests.xctest */,
+				F4BF33C4308E196E0095A4CA /* ReciklirajuciPoglediUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BF33AC308E196B0095A4CA /* ReciklirajuciPogledi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF33CE308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPogledi" */;
+			buildPhases = (
+				F4BF33A9308E196B0095A4CA /* Sources */,
+				F4BF33AA308E196B0095A4CA /* Frameworks */,
+				F4BF33AB308E196B0095A4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF33AF308E196B0095A4CA /* ReciklirajuciPogledi */,
+			);
+			name = ReciklirajuciPogledi;
+			packageProductDependencies = (
+			);
+			productName = ReciklirajuciPogledi;
+			productReference = F4BF33AD308E196B0095A4CA /* ReciklirajuciPogledi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BF33B9308E196E0095A4CA /* ReciklirajuciPoglediTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF33D1308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPoglediTests" */;
+			buildPhases = (
+				F4BF33B6308E196E0095A4CA /* Sources */,
+				F4BF33B7308E196E0095A4CA /* Frameworks */,
+				F4BF33B8308E196E0095A4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BF33BC308E196E0095A4CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF33BD308E196E0095A4CA /* ReciklirajuciPoglediTests */,
+			);
+			name = ReciklirajuciPoglediTests;
+			packageProductDependencies = (
+			);
+			productName = ReciklirajuciPoglediTests;
+			productReference = F4BF33BA308E196E0095A4CA /* ReciklirajuciPoglediTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BF33C3308E196E0095A4CA /* ReciklirajuciPoglediUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF33D4308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPoglediUITests" */;
+			buildPhases = (
+				F4BF33C0308E196E0095A4CA /* Sources */,
+				F4BF33C1308E196E0095A4CA /* Frameworks */,
+				F4BF33C2308E196E0095A4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BF33C6308E196E0095A4CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF33C7308E196E0095A4CA /* ReciklirajuciPoglediUITests */,
+			);
+			name = ReciklirajuciPoglediUITests;
+			packageProductDependencies = (
+			);
+			productName = ReciklirajuciPoglediUITests;
+			productReference = F4BF33C4308E196E0095A4CA /* ReciklirajuciPoglediUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BF33A5308E196B0095A4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F4BF33AC308E196B0095A4CA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					F4BF33B9308E196E0095A4CA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F4BF33AC308E196B0095A4CA;
+					};
+					F4BF33C3308E196E0095A4CA = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F4BF33AC308E196B0095A4CA;
+					};
+				};
+			};
+			buildConfigurationList = F4BF33A8308E196B0095A4CA /* Build configuration list for PBXProject "ReciklirajuciPogledi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BF33A4308E196B0095A4CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4BF33AE308E196B0095A4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BF33AC308E196B0095A4CA /* ReciklirajuciPogledi */,
+				F4BF33B9308E196E0095A4CA /* ReciklirajuciPoglediTests */,
+				F4BF33C3308E196E0095A4CA /* ReciklirajuciPoglediUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BF33AB308E196B0095A4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33B8308E196E0095A4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33C2308E196E0095A4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BF33A9308E196B0095A4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33B6308E196E0095A4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF33C0308E196E0095A4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BF33BC308E196E0095A4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BF33AC308E196B0095A4CA /* ReciklirajuciPogledi */;
+			targetProxy = F4BF33BB308E196E0095A4CA /* PBXContainerItemProxy */;
+		};
+		F4BF33C6308E196E0095A4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BF33AC308E196B0095A4CA /* ReciklirajuciPogledi */;
+			targetProxy = F4BF33C5308E196E0095A4CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4BF33CC308E196E0095A4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BF33CD308E196E0095A4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BF33CF308E196E0095A4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPogledi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BF33D0308E196E0095A4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPogledi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4BF33D2308E196E0095A4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPoglediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReciklirajuciPogledi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReciklirajuciPogledi";
+			};
+			name = Debug;
+		};
+		F4BF33D3308E196E0095A4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPoglediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReciklirajuciPogledi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReciklirajuciPogledi";
+			};
+			name = Release;
+		};
+		F4BF33D5308E196E0095A4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPoglediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReciklirajuciPogledi;
+			};
+			name = Debug;
+		};
+		F4BF33D6308E196E0095A4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.hudek.ReciklirajuciPoglediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReciklirajuciPogledi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BF33A8308E196B0095A4CA /* Build configuration list for PBXProject "ReciklirajuciPogledi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF33CC308E196E0095A4CA /* Debug */,
+				F4BF33CD308E196E0095A4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF33CE308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPogledi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF33CF308E196E0095A4CA /* Debug */,
+				F4BF33D0308E196E0095A4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF33D1308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPoglediTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF33D2308E196E0095A4CA /* Debug */,
+				F4BF33D3308E196E0095A4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF33D4308E196E0095A4CA /* Build configuration list for PBXNativeTarget "ReciklirajuciPoglediUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF33D5308E196E0095A4CA /* Debug */,
+				F4BF33D6308E196E0095A4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BF33A5308E196B0095A4CA /* Project object */;
+}
