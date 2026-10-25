@@ -12,7 +12,7 @@ struct ContentView: View {
         "Tablica",
         "Mreža",
         "LazyVStack",
-        "LayzHStack",
+        "LazyHStack",
         "Kartični pogled"
     ]
     
@@ -33,19 +33,19 @@ struct ContentView: View {
     func odabraniPrikaz(_ prikaz: String) -> some View{
         switch prikaz {
         case "Tablica":
-            Text("Prikaz patkica u tabičnom obliku")
-            
+            TableView()
         case "Mreža":
-            Text("Prikaz patkica u mrežnom obliku")
+            MrezaView()
             
         case "Kartični pogled":
             Text("Prikaz patkica u kartičnom obliku")
             
         case "LazyVStack":
-            Text("Prikaz patkica u LazyVStack obliku")
+            LazyVStackView()
             
         case "LazyHStack":
-            Text("Prikaz patkica u LazyHStack obliku")
+            Text("Prikaz patkice obliku")
+            
         default:
             Text("Pogreška")
         }

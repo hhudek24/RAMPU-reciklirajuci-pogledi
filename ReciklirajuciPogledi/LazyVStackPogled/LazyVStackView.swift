@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LazyVStack: View {
+struct LazyVStackView: View {
     let patkice = DemoPodaci.ducks
     var body: some View {
         ScrollView(.vertical){
@@ -15,11 +15,14 @@ struct LazyVStack: View {
                 ForEach(patkice, id: \.ime) { patkica in
                     VStack{
                         Text(patkica.ime)
-                        Text(patkica.boja)
-                        Text(patkica.cijena)
+                        Text("Boja:  \(patkica.boja)")
+                        Text("Cijena: \(patkica.cijena)")
                         }
                     .padding()
                     .cornerRadius(12)
+                    .frame(width:180, height: 160)
+                    .background(Color.pink.opacity(0.1))
+                    
                     }
                 }
             .padding()
@@ -30,5 +33,7 @@ struct LazyVStack: View {
 
 
 #Preview {
-    LazyVStack()
+    NavigationStack{
+        LazyVStackView()
+    }
 }

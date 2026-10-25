@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct MrezaItemView: View {
+    var patkica : Duck
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 10){
+            Text(patkica.ime).font(.headline)
+            
+            Text(patkica.boja).font(.subheadline)
+            
+            Text(patkica.cijena).font(.subheadline)
+        }
+        .frame(maxWidth: .infinity)
+        .padding()
+        .background(Color.pink.opacity(0.3))
+        .cornerRadius(10)
     }
 }
 
 #Preview {
-    MrezaItemView()
+    MrezaItemView(patkica: DemoPodaci.ducks[0])
 }

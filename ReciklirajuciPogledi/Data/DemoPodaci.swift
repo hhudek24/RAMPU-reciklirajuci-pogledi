@@ -35,6 +35,25 @@ struct DemoPodaci{
             id: 4,
             ime: "Geon",
             cijena: "8$",
+            boja: "Ljubičasta"
+        ),
+        
+        Duck(
+            id: 5,
+            ime: "Trsika",
+            cijena: "18$",
+            boja: "Plava"
+        ),
+        Duck(
+            id: 6,
+            ime: "Beli",
+            cijena: "85$",
+            boja: "Crvena"
+        ),
+        Duck(
+            id: 7,
+            ime: "Lup",
+            cijena: "32$",
             boja: "Ljubičasto-crvena"
         )
     ]
