@@ -38,7 +38,7 @@ struct ContentView: View {
             MrezaView()
             
         case "Kartični pogled":
-            Text("Prikaz patkica u kartičnom obliku")
+            KarticniPogledView()
             
         case "LazyVStack":
             LazyVStackView()
