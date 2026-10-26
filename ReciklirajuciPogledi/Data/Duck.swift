@@ -12,4 +12,5 @@ struct Duck: Identifiable {
     let ime: String
     let cijena: String
     let boja: String
+    let slika: String
 }

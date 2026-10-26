@@ -14,11 +14,16 @@ struct LazyHStackView: View {
             LazyHStack(spacing: 15){
                 ForEach (DemoPodaci.ducks, id: \.id){ patkica in
                     VStack(spacing: 8){
+                        Image(patkica.slika)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100, height: 160)
+                            .clipped()
                         Text(patkica.ime)
                         Text("Boja: \(patkica.boja)")
                         Text("Cijena: \(patkica.cijena)")
                     }
-                    .frame(width: 180, height: 160)
+                    .frame(width: 180, height: 250)
                     .padding()
                     .cornerRadius(12)
                     .background(Color.pink.opacity(0.1))

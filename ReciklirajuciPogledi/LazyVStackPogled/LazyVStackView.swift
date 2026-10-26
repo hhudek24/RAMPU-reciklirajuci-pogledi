@@ -14,13 +14,18 @@ struct LazyVStackView: View {
             LazyVStack(spacing: 12){
                 ForEach(patkice, id: \.ime) { patkica in
                     VStack{
+                        Image(patkica.slika)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 160, height: 150)
+                            .clipped()
                         Text(patkica.ime)
                         Text("Boja:  \(patkica.boja)")
                         Text("Cijena: \(patkica.cijena)")
                         }
                     .padding()
                     .cornerRadius(12)
-                    .frame(width:180, height: 160)
+                    .frame(width:330, height: 230)
                     .background(Color.pink.opacity(0.1))
                     
                     }

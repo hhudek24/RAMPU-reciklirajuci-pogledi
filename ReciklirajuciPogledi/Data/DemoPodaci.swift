@@ -14,47 +14,54 @@ struct DemoPodaci{
             id: 1,
             ime: "Suzika",
             cijena: "12$",
-            boja: "Ružičasta"
+            boja: "Ružičasta",
+            slika: "suzika"
         ),
         
         Duck(
             id: 2,
             ime: "Rozika",
             cijena: "15$",
-            boja: "Zelena"
+            boja: "Zelena",
+            slika:"rozika"
         ),
         
         Duck(
             id: 3,
             ime: "Franc",
             cijena: "22$",
-            boja: "Ružicasto-crvena"
+            boja: "Ružicasto-crvena",
+            slika: "franc"
         ),
         
         Duck(
             id: 4,
             ime: "Geon",
             cijena: "8$",
-            boja: "Ljubičasta"
+            boja: "Ljubičasta",
+            slika: "geon"
         ),
         
         Duck(
             id: 5,
             ime: "Trsika",
             cijena: "18$",
-            boja: "Plava"
+            boja: "Plava",
+            slika: "trsika"
         ),
         Duck(
             id: 6,
             ime: "Beli",
             cijena: "85$",
-            boja: "Crvena"
+            boja: "Crvena",
+            slika: "beli"
         ),
         Duck(
             id: 7,
             ime: "Lup",
             cijena: "32$",
-            boja: "Ljubičasto-crvena"
+            boja: "Ljubičasto-crvena",
+            slika: "lup"
         )
     ]
     
