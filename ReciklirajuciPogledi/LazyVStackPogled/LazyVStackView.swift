@@ -27,7 +27,7 @@ struct LazyVStackView: View {
                 }
             .padding()
             }
-        .navigationTitle("LazyVStack")
+        .navigationTitle("LazyVStack prikaz patkica")
     }
 }
 

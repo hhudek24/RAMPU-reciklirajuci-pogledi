@@ -44,7 +44,7 @@ struct ContentView: View {
             LazyVStackView()
             
         case "LazyHStack":
-            Text("Prikaz patkice obliku")
+            LazyHStackView()
             
         default:
             Text("Pogreška")

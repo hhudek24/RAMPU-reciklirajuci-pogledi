@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct LazyHStackView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal){
+            LazyHStack(spacing: 15){
+                ForEach (DemoPodaci.ducks, id: \.id){ patkica in
+                    VStack(spacing: 8){
+                        Text(patkica.ime)
+                        Text("Boja: \(patkica.boja)")
+                        Text("Cijena: \(patkica.cijena)")
+                    }
+                    .frame(width: 180, height: 160)
+                    .padding()
+                    .cornerRadius(12)
+                    .background(Color.pink.opacity(0.1))
+                    
+                }
+            }
+            .padding()
+        }
+        .navigationTitle("LazyHStack prikaz patkica")
     }
 }
 
 #Preview {
-    LazyHStackView()
+    NavigationStack{
+        LazyHStackView()
+    }
 }
